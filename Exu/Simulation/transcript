@@ -1,3 +1,9 @@
 # Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile F:/Marco/Desktop/ENSC350FP/Exu/Simulation/Exu.mpf
 # Loading project Exu
+# Compile of TBArithUnit.vhd was successful.
+# Compile of ConfigExU.vhd failed with 5 errors.
+# Compile of TBArithUnit.vhd was successful.
+# Compile of TBLogicUnit.vhd was successful.
+# Compile of LogicUnit.vhd was successful.
+# 4 compiles, 1 failed with 5 errors.

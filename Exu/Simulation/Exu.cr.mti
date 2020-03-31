@@ -1,1 +1,235 @@
+F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TbLogicUnit
+-- Compiling architecture behavioural of TbLogicUnit
 
+} {} {}} F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd {0 {vcom -work work -2002 -explicit -stats=none F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TbArithUnit
+-- Compiling architecture behavioural of TbArithUnit
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(78): (vcom-1136) Unknown identifier "hread".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(79): (vcom-1136) Unknown identifier "hread".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(80): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(81): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(82): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(83): (vcom-1136) Unknown identifier "hread".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(84): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(85): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(86): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(87): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(88): (vcom-1600) No feasible entries for subprogram "read".
+   Visible subprograms are:
+      (implicit) TEXTIO.read[std.TEXTIO.TEXT, std.STANDARD.STRING, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(64)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT] at $MODEL_TECH/../vhdl_src/std/textio.vhd(66)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(68)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BIT_VECTOR] at $MODEL_TECH/../vhdl_src/std/textio.vhd(70)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(72)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(74)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(76)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.CHARACTER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(78)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(80)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, INTEGER] at $MODEL_TECH/../vhdl_src/std/textio.vhd(82)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(84)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.REAL] at $MODEL_TECH/../vhdl_src/std/textio.vhd(86)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(88)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/std/textio.vhd(90)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME, BOOLEAN] at $MODEL_TECH/../vhdl_src/std/textio.vhd(92)
+      (explicit) TEXTIO.READ[std.TEXTIO.LINE, std.STANDARD.TIME] at $MODEL_TECH/../vhdl_src/std/textio.vhd(94)
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(109): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(109): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(109): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(110): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(110): (vcom-1136) Unknown identifier "to_hstring".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(110): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(110): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(111): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(111): (vcom-1136) Unknown identifier "to_hstring".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(111): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(118): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(118): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(118): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(119): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(119): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(120): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(120): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(120): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(127): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(127): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(127): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(128): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(128): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(128): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(128): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(129): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(129): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(129): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(136): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(136): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(136): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(137): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(137): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(137): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(137): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(138): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(138): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(138): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(145): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(145): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(145): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(146): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(146): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(146): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(146): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(147): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(147): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(147): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(154): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(154): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(154): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(155): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(155): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(155): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(155): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(156): ** Error: (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(156): (vcom-1136) Unknown identifier "to_string".
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(156): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd(168): VHDL Compiler exiting
+
+} {9.0 12.0 30.0 31.0 49.0 50.0 68.0 70.0 88.0 89.0 107.0 108.0 126.0 127.0 145.0 146.0 164.0 225.0} {}}
