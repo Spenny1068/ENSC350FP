@@ -10,7 +10,6 @@ Port( A, B : in std_logic_vector(N-1 downto 0);
 --Status signals
 	Cout, Ovfl : out std_logic);
 End Entity Adder;
-
 Architecture rtl of Adder is
 	signal ix, iy, iz : std_logic_vector(N-1 downto 0);
 	signal ic : std_logic_vector(N downto 0);

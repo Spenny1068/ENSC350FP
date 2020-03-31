@@ -22,8 +22,8 @@ add wave -noupdate -height 50 /tbarithunit/Zero
 add wave -noupdate -height 50 /tbarithunit/AltB
 add wave -noupdate -height 50 /tbarithunit/AltBu
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 3} {16000 ps} 0} {{Cursor 4} {41600 ps} 0}
-quietly wave cursor active 1
+WaveRestoreCursors {{Cursor 3} {16000 ps} 0} {{Cursor 4} {1192400 ps} 0}
+quietly wave cursor active 2
 configure wave -namecolwidth 191
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
@@ -38,4 +38,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {43800 ps}
+WaveRestoreZoom {1178400 ps} {1222200 ps}

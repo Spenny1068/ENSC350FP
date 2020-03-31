@@ -260,7 +260,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "LogicFN[0]",
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "Ovfl",
+					"strict" : false
+				},
+				{
+					"name" : "Zero",
+					"strict" : false
+				},
+				{
+					"name" : "AltB",
+					"strict" : false
+				},
+				{
+					"name" : "AltBu",
 					"strict" : false
 				},
 				{
@@ -272,7 +288,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "LogicFN[1]",
+					"name" : "NotA",
+					"strict" : false
+				},
+				{
+					"name" : "AddnSub",
 					"strict" : false
 				},
 				{
@@ -529,6 +549,10 @@
 				},
 				{
 					"name" : "A[32]",
+					"strict" : false
+				},
+				{
+					"name" : "ExtWord",
 					"strict" : false
 				},
 				{

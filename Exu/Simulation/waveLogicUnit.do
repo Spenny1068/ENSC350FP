@@ -16,8 +16,8 @@ add wave -noupdate -height 40 -radix hexadecimal /tblogicunit/Y
 add wave -noupdate -height 40 -radix hexadecimal /tblogicunit/TbY
 add wave -noupdate -divider {DUT Signals}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {70000 ps} 0} {{Cursor 2} {0 ps} 0}
-quietly wave cursor active 2
+WaveRestoreCursors {{Cursor 1} {6489000 ps} 0}
+quietly wave cursor active 1
 configure wave -namecolwidth 215
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left
@@ -32,4 +32,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {70 ns}
+WaveRestoreZoom {6484500 ps} {6500900 ps}

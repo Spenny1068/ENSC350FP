@@ -1,5 +1,5 @@
-# End time: 22:22:28 on Mar 30,2020, Elapsed time: 0:01:54
-# Errors: 33, Warnings: 0
+# End time: 23:26:03 on Mar 30,2020, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
 #----------------------------------------------------------------------------------------------------------
 # compile
 #----------------------------------------------------------------------------------------------------------
@@ -32,7 +32,7 @@
 # 
 # vcom -work work -2008 -explicit -stats=time,-cmd,msg ConfigExU.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:22:29 on Mar 30,2020
+# Start time: 23:26:04 on Mar 30,2020
 # -- Loading package STANDARD
 # -- Compiling configuration FuncLUSim
 # -- Loading package TEXTIO
@@ -57,14 +57,14 @@
 # -- Loading entity TbArithUnit
 # -- Loading architecture behavioural of TbArithUnit
 # -- Loading entity ArithUnit
-# End time: 22:22:29 on Mar 30,2020, Elapsed time: 0:00:00
+# End time: 23:26:04 on Mar 30,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #----------------------------------------------------------------------------------------------------------
 # Start the simulation
 #----------------------------------------------------------------------------------------------------------
 # vsim -gui work.FuncAUSim -t 100ps
 # vsim -gui work.FuncAUSim -t 100ps 
-# Start time: 22:22:29 on Mar 30,2020
+# Start time: 23:26:04 on Mar 30,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)

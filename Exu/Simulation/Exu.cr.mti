@@ -47,12 +47,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TbArithUnit
 -- Compiling architecture behavioural of TbArithUnit
 
-} {} {}} F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd {1 {vcom -work work -2008 -explicit -stats=none F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd
+} {} {}} F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/ArithUnit.vhd {1 {vcom -work work -2008 -explicit -stats=none {F:\Marco\Desktop\ENSC350FP\Exu\SourceCode\ArithUnit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Adder
--- Compiling architecture rtl of Adder
+-- Loading package NUMERIC_STD
+-- Compiling entity ArithUnit
+-- Compiling architecture rtl of ArithUnit
+-- Loading entity Adder
 
 } {} {}}

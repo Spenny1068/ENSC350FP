@@ -23,7 +23,7 @@ Begin
 	ia <= A when NotA = '0' else NOT(A);
 
 --Adder
-add:	entity work.adder port map (ia, ib, S, AddnSub, c64, overflow);
+add:	entity work.Adder port map (ia, ib, S, AddnSub, c64, overflow);
 
 --Cout and OverFlow
 	Cout <= c64;
