@@ -7,3 +7,4 @@
 # Compile of TBLogicUnit.vhd was successful.
 # Compile of LogicUnit.vhd was successful.
 # 4 compiles, 1 failed with 5 errors.
+do FunctionalLogicUnit.do

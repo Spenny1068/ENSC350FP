@@ -8,178 +8,313 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/18.1
+Eadder
+Z0 w1585620351
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dF:/Marco/Desktop/ENSC350FP/Exu/Simulation
+Z4 8F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd
+Z5 FF:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd
+l0
+L4
+VoYfjBLg2UBoG=SXQ:zcPl2
+!s100 WQHdfbZjRHFQ8YUgX0I0g2
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1585625087
+!i10b 1
+Z8 !s108 1585625087.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd|
+Z10 !s107 F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/Adder.vhd|
+!i113 1
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+Z13 DEx4 work 5 adder 0 22 oYfjBLg2UBoG=SXQ:zcPl2
+l17
+L14
+VAgYg2z0l4iKX]M4jjLZ3L3
+!s100 FU0]ZG1`PQc4_dea<3:2G0
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Earithunit
+Z14 w1585624966
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z16 8F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/ArithUnit.vhd
+Z17 FF:/Marco/Desktop/ENSC350FP/Exu/SourceCode/ArithUnit.vhd
+l0
+L5
+VXJ_7GlmN31WZ;_?OA8O_Y3
+!s100 Y=_o0jk<j7FP:n`F2FXJd0
+R6
+32
+R7
+!i10b 1
+R8
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/ArithUnit.vhd|
+Z19 !s107 F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/ArithUnit.vhd|
+!i113 1
+Z20 o-work work -2002 -explicit
+R12
+Artl
+R13
+R15
+R1
+R2
+Z21 DEx4 work 9 arithunit 0 22 XJ_7GlmN31WZ;_?OA8O_Y3
+l18
+L15
+VQ9]YS=P_>TVjWaEKDSYTb3
+!s100 ?XIH8HmQ2:KoCV5aTXFXk2
+R6
+32
+R7
+!i10b 1
+R8
+R18
+R19
+!i113 1
+R20
+R12
+Cfuncausim
+Z22 eTbArithUnit
+Z23 abehavioural
+R21
+Z24 DAx4 work 11 tbarithunit 11 behavioural 22 VY<aabdg2gPM0UiDnUcmT3
+R15
+R1
+R2
+Z25 DEx4 work 11 tbarithunit 0 22 H?jnlGf<UDYSYk@9Scd433
+Z26 w1585612909
+R3
+Z27 8ConfigExU.vhd
+Z28 FConfigExU.vhd
+l0
+L15
+V`<aJ^VfHk75_i^^[9k2ZV0
+!s100 ?D3XPUQgkHV;RRBPGZ^T;3
+R6
+33
+Z29 !s110 1585625125
+!i10b 1
+Z30 !s108 1585625125.000000
+Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=time,-cmd,msg|ConfigExU.vhd|
+Z32 !s107 ConfigExU.vhd|
+!i113 1
+R11
+R12
 Cfunclusim
-Z0 eTbLogicUnit
-Z1 abehavioural
-Z2 DEx4 work 9 logicunit 0 22 6Do_jffLIGbE>1U7DUY_W0
-Z3 DAx4 work 11 tblogicunit 11 behavioural 22 HUeAiGW2Qh9JTcLaXDng61
-Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z7 DEx4 work 11 tblogicunit 0 22 :aF1E7<jIb_KJZ4nYJZ[i3
-Z8 w1585612909
-Z9 dF:/Marco/Desktop/ENSC350FP/Exu/Simulation
-Z10 8F:/Marco/Desktop/ENSC350FP/Exu/Simulation/ConfigExU.vhd
-Z11 FF:/Marco/Desktop/ENSC350FP/Exu/Simulation/ConfigExU.vhd
+Z33 eTbLogicUnit
+R23
+Z34 DEx4 work 9 logicunit 0 22 EYTP6h42`b6EmKn=5X12S2
+Z35 DAx4 work 11 tblogicunit 11 behavioural 22 HUeAiGW2Qh9JTcLaXDng61
+R15
+R1
+R2
+Z36 DEx4 work 11 tblogicunit 0 22 :aF1E7<jIb_KJZ4nYJZ[i3
+R26
+R3
+R27
+R28
 l0
 L1
 VUz6o]e?NCzlMVDRM7DK1X3
 !s100 1I?ZbB3Lg;edQG`Y4C?z70
-Z12 OV;C;10.5b;63
-33
-Z13 !s110 1585615200
-!i10b 1
-Z14 !s108 1585615200.000000
-Z15 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/Simulation/ConfigExU.vhd|
-Z16 !s107 F:/Marco/Desktop/ENSC350FP/Exu/Simulation/ConfigExU.vhd|
-!i113 1
-Z17 o-work work -2008 -explicit
-Z18 tExplicit 1 CvgOpt 0
-Elogicunit
-Z19 w1585614491
-R5
 R6
-R9
-Z20 8F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/LogicUnit.vhd
-Z21 FF:/Marco/Desktop/ENSC350FP/Exu/SourceCode/LogicUnit.vhd
+33
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Elogicunit
+Z37 w1585620350
+R1
+R2
+R3
+Z38 8../SourceCode/LogicUnit.vhd
+Z39 F../SourceCode/LogicUnit.vhd
 l0
 L4
-V6Do_jffLIGbE>1U7DUY_W0
-!s100 GK`oz:84?5g=C3VM6GIGU3
-R12
-33
-R13
-!i10b 1
-R14
-Z22 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/LogicUnit.vhd|
-Z23 !s107 F:/Marco/Desktop/ENSC350FP/Exu/SourceCode/LogicUnit.vhd|
-!i113 1
-R17
-R18
-Artl
-R5
+VEYTP6h42`b6EmKn=5X12S2
+!s100 7PkZDgzz;OYm2oDW]9b@D1
 R6
+33
+R29
+!i10b 1
+R30
+Z40 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|../SourceCode/LogicUnit.vhd|
+Z41 !s107 ../SourceCode/LogicUnit.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
 R2
+R34
 l13
 L11
-Z24 Vl96:DO;7B6A2U8F8H3E`W1
-Z25 !s100 =e5[hELRghgEI7a[VgljY1
-R12
-33
-R13
-!i10b 1
-R14
-R22
-R23
-!i113 1
-R17
-R18
-Etbarithunit
-Z26 w1585284435
-R4
-R5
+Vl96:DO;7B6A2U8F8H3E`W1
+!s100 =e5[hELRghgEI7a[VgljY1
 R6
-R9
-Z27 8F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd
-Z28 FF:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd
+33
+R29
+!i10b 1
+R30
+R40
+R41
+!i113 1
+R11
+R12
+Etbarithunit
+Z42 w1585284435
+R15
+R1
+R2
+R3
+Z43 8F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd
+Z44 FF:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd
 l0
 L7
 VH?jnlGf<UDYSYk@9Scd433
 !s100 nV1D7fnIP>bl9@SHD^z]H1
-R12
-33
-R13
-!i10b 1
-R14
-Z29 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd|
-Z30 !s107 F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd|
-!i113 1
-R17
-R18
-Abehavioural
-R4
-R5
 R6
-DEx4 work 11 tbarithunit 0 22 H?jnlGf<UDYSYk@9Scd433
+33
+R7
+!i10b 1
+R8
+Z45 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd|
+Z46 !s107 F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBArithUnit.vhd|
+!i113 1
+R11
+R12
+Abehavioural
+R15
+R1
+R2
+R25
 l35
 L11
 VVY<aabdg2gPM0UiDnUcmT3
 !s100 ?6lWP>bBzdjVm`HZSX8U62
-R12
-33
-R13
-!i10b 1
-R14
-R29
-R30
-!i113 1
-R17
-R18
-Etblogicunit
-R26
-R4
-R5
 R6
-R9
-Z31 8F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd
-Z32 FF:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd
+33
+R7
+!i10b 1
+R8
+R45
+R46
+!i113 1
+R11
+R12
+Etblogicunit
+R42
+R15
+R1
+R2
+R3
+Z47 8TBLogicUnit.vhd
+Z48 FTBLogicUnit.vhd
 l0
 L7
 V:aF1E7<jIb_KJZ4nYJZ[i3
 !s100 1CFj:XSGgajROW^G:?_><3
-R12
-33
-R13
-!i10b 1
-R14
-Z33 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd|
-Z34 !s107 F:/Marco/Desktop/ENSC350FP/Exu/Simulation/TBLogicUnit.vhd|
-!i113 1
-R17
-R18
-Abehavioural
-R4
-R5
 R6
-R7
+33
+R29
+!i10b 1
+R30
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|TBLogicUnit.vhd|
+Z50 !s107 TBLogicUnit.vhd|
+!i113 1
+R11
+R12
+Abehavioural
+R15
+R1
+R2
+R36
 l46
 L11
 VHUeAiGW2Qh9JTcLaXDng61
 !s100 37^bbYcBSd`8Q]bJE`n223
-R12
+R6
 33
-R13
+R29
 !i10b 1
-R14
-R33
-R34
+R30
+R49
+R50
 !i113 1
-R17
-R18
-Ctimelusim
-R0
+R11
+R12
+Ctimeausim
+R22
+R23
+R21
+R24
+R15
 R1
 R2
+R25
+R26
 R3
-R4
-R5
+R27
+R28
+l0
+L22
+Vc@j0<]>]2McV@A_In0?[D3
+!s100 R2Kc^HfY?<C>3UmQcD?gm0
 R6
-R7
-R8
-R9
-R10
+33
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
 R11
+R12
+Ctimelusim
+R33
+R23
+R34
+R35
+R15
+R1
+R2
+R36
+R26
+R3
+R27
+R28
 l0
 L8
 Vj`:ZLjB?3a?cGJhV;ID502
 !s100 YGhEgiCJcm@dDJh:JeAi`1
-R12
+R6
 33
-R13
+R29
 !i10b 1
-R14
-R15
-R16
+R30
+R31
+R32
 !i113 1
-R17
-R18
+R11
+R12
