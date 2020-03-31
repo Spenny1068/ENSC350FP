@@ -30,8 +30,7 @@ add:	entity work.adder port map (ia, ib, S, AddnSub, c64, overflow);
 	Ovfl <= overflow;
 
 --Zero
-	Zero <= '1' when S = x"0000000000000000"
-	else '0';
+	Zero <= '1' when S = x"0000000000000000" else '0';
 --SgnExt
 	se <= std_logic_vector(resize(signed(S(31 downto 0)), se'length));
 
@@ -39,7 +38,7 @@ add:	entity work.adder port map (ia, ib, S, AddnSub, c64, overflow);
 	Y <= S when ExtWord = '0' else se;
 
 --AltBu and AltB
-	AltBu <= 
-	AltB <= NOT(c64);
+	AltB <=  S(N-1) XOR overflow when ExtWord = '0' else se(N-1) XOR overflow;
+	AltBu <= NOT(c65);
 
 End Architecture rtl;
